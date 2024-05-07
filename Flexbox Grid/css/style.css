@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.batch {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+figure {
+    flex-basis: 22%;
+}
+
+.grid1 {
+    flex-basis: 48%;
+}
+
+.grid2 {
+    flex-basis: 48%;
+}
+
+.grid3 {
+    flex-basis: 74%;
+}
+
+.grid4 {
+    flex-basis: 100%;
+}
+
+figure>div {
+    width: 100%;
+    height: 150px;
+}
+
+.bg1 {
+    background-color: brown;
+}
+
+.bg2 {
+    background-color: lightseagreen;
+}
+
+.bg3 {
+    background-color: goldenrod;
+}
+
+.bg4 {
+    background-color: indianred;
+}
+
+.bg5 {
+    background-color:darkorchid;
+}
+
+.bg6 {
+    background-color:burlywood;
+}
+
+figcaption {
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+figcaption * {
+    padding: 0.5rem;
+}

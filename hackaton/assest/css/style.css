@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+    padding: 0%;
+ }
+ .navbar{
+  font-size: small;   
+  
+    
+      
+}
+
+#navbarNav{
+    background-color: rgb(241, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+  text-indent: 40px;
+  justify-content: right;
+
+}
+
+.nav2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-left {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav-right {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav-left li {
+    list-style-type: none;
+}
+
+
+.nav-right li {
+    list-style-type: none;
+}
+
+.nav-left li a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+.nav-right li a {
+    text-decoration: none;
+     color: black;
+    padding: 2rem;
+}
+
+.banner {
+    background-image: url(../images/homepage-hero-desktop-3200x800-3.avif);
+    max-width: 100%;
+    margin: auto;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero {
+padding-left: 4rem;
+padding-top: 10rem;
+}
+
+.hero h1{
+    max-width: 40rem;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+
+.hero button {
+    border-radius: 25px;
+    border-style: none;
+    padding: 1rem;
+}
+
+.icons {
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    padding: 4rem;
+    margin: auto;
+}
+
+.icons div a { 
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+.icons ul {
+    list-style-type: none;
+}
+
+.fonts {
+display: flex;
+}
+
+.flex a{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.content-1 {
+    display: flex;
+}
+
+.content-1 img {
+    width: 100%;
+}
+
