@@ -84,36 +84,116 @@
 //     alert("please enter a valid gender")
 // }
 
-function calulateResult(){
+function calulateResult() {
     let userNumber = document.getElementById('number').value
-    let percentage =userNumber/750*100;
-    if(percentage >= 80){
-        alert("You got A+ Congrats")
-    }
-
-    else if(percentage >= 70){
-        alert("You got A Congrats")
-    }
-
-    else if(percentage >= 60){
-        alert("You got B Congrats")
-    }
-
-    else if(percentage >= 50){
-        alert("You got C Congrats")
-    }
-
-    else if (percentage >= 0.1){
-        alert("sorry you are failed better luck next time")
-    }
-    else if (percentage >= 100.01){
+    let percentage = userNumber / 750 * 100;
+    if (percentage >= 100.01) {
         alert("please enter a valid number")
     }
 
-    else {
-        alert ("please enter a valid number")
+    else if (percentage >= 80) {
+        alert("You got A+ Congrats")
     }
+
+    else if (percentage >= 70) {
+        alert("You got A Congrats")
+    }
+
+    else if (percentage >= 60) {
+        alert("You got B Congrats")
+    }
+
+    else if (percentage >= 50) {
+        alert("You got C Congrats")
+    }
+
+    else if (percentage >= 0.1) {
+        alert("sorry you are failed better luck next time")
+    }
+
+    else {
+        alert("please enter a valid number")
+    }
+
 
     console.log(userNumber)
     console.log(percentage)
 }
+
+// document.write('<h1>This is js first class</h1>')
+// document.write('<h1>'+'Hello World'+'</h1>')
+
+
+// var abc = "Irfan Ullah"
+// alert(abc)
+
+// var num ="naveed ali"
+// document.write(num)
+
+// var firstName = 'Irfan'
+// var lastName = 'Ullah'
+// document.write(firstName+' '+lastName)
+
+// var num1 = 5
+// var num2 = 10
+// document.write(num1+num2)
+
+
+// var num1 = "5"
+// var num2 = 10
+// document.write(num1+num2)
+
+// var num1 = 5
+// var num2 = 10
+// document.write(num1*num2)
+
+// var num1 = 5
+// var num2 = 10
+// document.write(num1-num2)
+
+// var num1 = 5
+// var num2 = 10
+// document.write(num1/num2)
+
+//  var num1 = "5"
+//  var num2 = 1
+//  document.write(num1 - num2)
+
+//  var num1 = "a"
+//  var num2 = 1
+//  document.write(num1 - num2)
+
+//   var num1 = "a12"
+//   var num2 = 1
+//   document.write(num1 - num2)
+
+// prompt ('Enter your number')
+
+// var a = prompt ('Enter your number')
+// var b = prompt ('Enter your name')
+// document.write (a%b)
+
+// var a = prompt('Enter your number')
+// var b = prompt('Enter your name')
+
+//  var a = prompt('Enter your number') //its string
+//  var b = prompt('Enter your name')   //its string
+// document.write(typeof(a))
+
+//var a = +prompt('Enter your number') //its number
+//var b = +prompt('Enter your name')   //its number
+//document.write(typeof (a))
+
+// var add = a + b
+// var mul = a - b
+// var div = a / b
+// var sub = a - b
+
+// + k sign pa concat karega us soorat main jab string ho
+// + k sign pa add karega jab dono integer ho
+
+// - sub karega jab 1 string or 1 integer ho tab bhi or jab dono integer ho tab bhi
+// or same - wali cheez * / mod % par apply hogi
+
+// jab 1 string ho or us me alphabet ho or 1 number yani integer ho or -sub
+// mul* div/ laga hoga to run time pe decide karega or opretion perform kardega
