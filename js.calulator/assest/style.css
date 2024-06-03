@@ -55,3 +55,8 @@ form input.operator {
     background-color: #33ffd8;
     color: #000;
 }
+
+form input.operator:hover {
+    background-color: transparent;
+    color: #33ffd8;
+}

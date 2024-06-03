@@ -27,7 +27,7 @@
 // let ispass = undefined; // undefined
 // console.log (typeof ispass)
 
-// let isFeesPaid = null;  // null 
+// let isFeesPaid = null;  // null
 // console.log (isFeesPaid)
 
 // let stringNumber = "1234";
@@ -84,41 +84,41 @@
 //     alert("please enter a valid gender")
 // }
 
-function calulateResult() {
-    let userNumber = document.getElementById('number').value
-    let percentage = userNumber / 750 * 100;
-    if (percentage >= 100.01) {
-        alert("please enter a valid number")
-    }
+// function calulateResult() {
+//     let userNumber = document.getElementById('number').value
+//     let percentage = userNumber / 750 * 100;
+//     // if (percentage >= 100.01) {
+//     //     alert("please enter a valid number")
+//     // }
 
-    else if (percentage >= 80) {
-        alert("You got A+ Congrats")
-    }
+//     if (percentage >= 80 && percentage <= 100) {
+//         alert("You got A+ Congrats")
+//     }
 
-    else if (percentage >= 70) {
-        alert("You got A Congrats")
-    }
+//     else if (percentage >= 70 && percentage <= 79) {
+//         alert("You got A Congrats")
+//     }
 
-    else if (percentage >= 60) {
-        alert("You got B Congrats")
-    }
+//     else if (percentage >= 60 && percentage <= 69) {
+//         alert("You got B Congrats")
+//     }
 
-    else if (percentage >= 50) {
-        alert("You got C Congrats")
-    }
+//     else if (percentage >= 50 && percentage <=59) {
+//         alert("You got C Congrats")
+//     }
 
-    else if (percentage >= 0.1) {
-        alert("sorry you are failed better luck next time")
-    }
+//     else if (percentage <= 50) {
+//         alert("sorry you are failed better luck next time")
+//     }
 
-    else {
-        alert("please enter a valid number")
-    }
+//     else {
+//         alert("please enter a valid number")
+//     }
 
 
-    console.log(userNumber)
-    console.log(percentage)
-}
+//     console.log(userNumber)
+//     console.log(percentage)
+// }
 
 // document.write('<h1>This is js first class</h1>')
 // document.write('<h1>'+'Hello World'+'</h1>')
@@ -197,3 +197,69 @@ function calulateResult() {
 
 // jab 1 string ho or us me alphabet ho or 1 number yani integer ho or -sub
 // mul* div/ laga hoga to run time pe decide karega or opretion perform kardega
+
+// let name1 ='2'
+// if (name1 !== 2){
+//     alert('yes')
+// }
+
+// let name1 ='2'
+
+// if ('2' !== 2){
+//     alert('yes')
+// }
+
+// let age = 21
+// let resident = 'pakistani'
+// let gender = 'male'
+
+// if (resident == 'pakistani' && gender == "male" || gender == 'female') {
+
+//     alert('welcome to dubai!')
+//     if(age>18){
+//         alert('you can drive cars in dubai')
+//     }
+//     else {
+//         alert ("you can't drive cars in dubai")
+//     }
+// }
+
+// =====================arrays===========================
+
+// let array = [];
+// let std = ['zubair', 'irfan', 'naveed', 'ahmed', 'anab']
+// // let stdAge = [12, 13, 14, 15, 16]
+
+// function pushNewStudent(){
+//     let newStdName = prompt('please Enter new student name:')
+// }
+// // std.push('naveed')
+// std.unshift ('newStdName')
+// console.log(std)
+
+// let student = ['irfan', 'naveed', 'asim', 'haider']
+// function pushNewStudent() {
+//     let newStudentName = prompt("Please enter new student name:")
+//     student.unshift(newStudentName) // add from first
+//     console.log(student)
+// }
+
+// function removeNewStudent() {
+//     student.shift(removeNewStudent) // remove from first
+//     console.log(student)
+// }
+
+
+
+// function pushNewStudentInLast() {
+//     let newStudentName = prompt("Please enter new student name:")
+//     student.push(newStudentName) // add from first
+//     console.log(student)
+// }
+
+// function removeNewStudentInLast() {
+//     student.pop(removeNewStudent) // remove from last
+//     console.log(student)
+// }
+
+// console.log(student)
