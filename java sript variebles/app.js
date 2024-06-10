@@ -253,7 +253,7 @@
 
 // function pushNewStudentInLast() {
 //     let newStudentName = prompt("Please enter new student name:")
-//     student.push(newStudentName) // add from first
+//     student.push(newStudentName) // add from last
 //     console.log(student)
 // }
 
@@ -263,3 +263,57 @@
 // }
 
 // console.log(student)
+
+// let arrayb = [];
+
+// let class1std = ['zubair', 'junaid', 'irfan']
+// let class2std = ['raheel', 'naveed', 'ali']
+
+// let stds = [class1std, class2std]
+
+// console.log (stds [0][1], stds [1][1])
+
+
+// =============slice==========================
+
+// const fruits = ["banana", "orange", "mango", "samsung", "papaya", "apple"]
+// let index_of_index_samsung = (fruits.indexOf("samsung"))
+// const newFruits = fruits.slice(index_of_index_samsung)
+// console.log(newFruits)
+
+// let friends = [["zohaib", "azmat"], ["amir", "Ansari"], [["naveed", "mustafa", "qasim", "sultan"]]]
+
+// // let name = (friends.slice("mustafa","qasim"))
+
+// let myFriend =friends [2][0].slice(1,3)
+// console.log (myFriend)
+
+// Create an Array
+// const fruits = ["Banana", "Orange", "Apple", "Mango",[["milk", "yougourt","butter"]]];
+
+// At position 2, add "Lemon" and "Kiwi":
+// fruits.splice(2, 1, "Lemon", "kiwi");
+// console.log(fruits)
+
+
+// const newArray = ["Banana", "Orange", "Apple", "Mango",
+//     [
+//         ["milk", "yougourt", "butter"]
+//     ]
+// ];
+
+// let deletedItem = newArray[4][0].splice(1, 1, "slice", "eggs")
+
+// console.log(newArray)
+// console.log (deletedItem)
+
+
+// ======================================for loops======================================
+
+// let std = ["zubair", "junaid", "owais", "ayan"]
+// for (let i = 0)
+for (let i = 0; i < 10; i++){
+    console.log("zubair", i)
+}
+
+// console.log (std.indexOf ("owais"))
